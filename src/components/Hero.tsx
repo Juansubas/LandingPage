@@ -46,7 +46,7 @@ const Hero = () => {
             alt=""
             className="w-[450px] h-[450px] object-cover -mt-28"
           />
-          <div className="relative bg-white shadow-xl rounded-lg p-4 flex flex-col justify-center max-w-[250px] gap-2 mx-auto">
+          <div className="relative bg-white shadow-xl rounded-lg p-4 flex flex-col justify-center max-w-[250px] gap-2 mx-auto -mt-12">
             <div className="flex items-center">
               <img
                 src="https://img.freepik.com/foto-gratis/empresaria-confiada-sonriente-que-presenta-brazos-cruzados_1262-20950.jpg"
@@ -77,8 +77,8 @@ const Hero = () => {
             </div>
             <div className="absolute -right-12 -bottom-12 -z-10">
               <div className="relative">
-                <RiCheckboxBlankCircleFill className=" text-primary text-8xl "/>
-                <RiCheckboxBlankFill className="absolute -left-7 -top-7 text-white text-8xl"/>
+                <RiCheckboxBlankCircleFill className=" text-primary text-8xl translate-x-2 translate-y-2 "/>
+                <div className="absolute left-0 top-0 bg-white w-14 h-14 "></div>
               </div>
             </div>
           </div>
