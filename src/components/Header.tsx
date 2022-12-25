@@ -16,7 +16,7 @@ const Header = () => {
           <RiCheckboxBlankCircleFill className="absolute -left-3 -bottom-3 text-primary -z-10" />
         </a>
       </div>
-      <nav className={`fixed bg-white w-[80%] md:w-[40%] xl:w-full h-full ${showMenu ? "left-full" : "-left-0"} top-0 xl:static flex-1 flex flex-col xl:flex-row items-center justify-center gap-10 transition-all duration-500`}>
+      <nav className={`fixed bg-white w-[80%] md:w-[40%] xl:w-full h-full ${showMenu ? "left-0" : "-left-full"} top-0 xl:static flex-1 flex flex-col xl:flex-row items-center justify-center gap-10 transition-all duration-500 z-50`}>
         <a href="#" className="">
           Home
         </a>
@@ -30,7 +30,7 @@ const Header = () => {
           Products
         </a>
       </nav>
-      <button onClick={() => setShowMenu(showMenu)} className="xl:hidden text-2xl p-2">
+      <button onClick={() => setShowMenu(!showMenu)} className="xl:hidden text-2xl p-2">
         {!showMenu ? <RiCloseLine /> : <RiMenu3Fill />}
       </button>
     </header>
