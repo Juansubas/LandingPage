@@ -4,6 +4,7 @@ import Clients from "./components/Clients"
 import Works from "./components/Works"
 import Reviews from "./components/Reviews"
 import Services from "./components/Services"
+import Footer from "./components/Footer"
 
 // Para crear componentes usar abreviatura rafce
 
@@ -17,6 +18,7 @@ function App() {
       <Works />
       <Reviews />
       <Services />
+      <Footer />
     </div>
   )
 }
