@@ -7,7 +7,7 @@ const Works = () => {
         <h1 className="text-[40px] font-black">
           We create world-class digital products
         </h1>
-        <p className="text-lg text-gray-500">
+        <p className="text-xl text-gray-500">
           By Information about design the world to the best instructors, heatc
           helping By information
         </p>
@@ -29,33 +29,44 @@ const Works = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="flex flex-col gap-4 ">
+            <img
+              src="work2.png"
+              className="w-full h-56 object-cover rounded-3xl"
+            />
             <p className="text-gray-500">App Design - June 20, 20222</p>
             <h3 className="text-2xl font-bold">
               Redesign channel website landng page
             </h3>
-            <img src="work2.png" className="rounded-3xl" />
           </div>
           <div className="flex flex-col gap-4 ">
+            <img
+              src="work3.png"
+              className="w-full h-56 object-cover rounded-3xl"
+            />
             <p className="text-gray-500">App Design - June 20, 20222</p>
             <h3 className="text-2xl font-bold">
               New Locator App For a New Company
             </h3>
-            <img src="work3.png" className="" />
           </div>
           <div className="flex flex-col gap-4 ">
+            <img
+              src="work4.png"
+              className="w-full h-56 object-cover rounded-3xl"
+            />
             <p className="text-gray-500">App Design - June 20, 20222</p>
             <h3 className="text-2xl font-bold">
               Rental Rooms Web App Platform
             </h3>
-            <img src="work4.png" className="" />
           </div>
           <div className="flex flex-col gap-4 ">
+            <img
+              src="work5.png"
+              className="w-full h-56 object-cover rounded-3xl"
+            />
             <p className="text-gray-500">App Design - June 20, 20222</p>
             <h3 className="text-2xl font-bold">
               Calendar App for Big SASS Company
             </h3>
-            <img src="work5.png" className="" />
-
           </div>
         </div>
       </div>
